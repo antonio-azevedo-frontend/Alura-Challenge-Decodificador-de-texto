@@ -1,0 +1,246 @@
+body{
+
+	background: #F3F5FC;
+	display: flex;
+	font-family: Montserrat;
+}
+
+
+#logo-container{
+	margin: 40px 0;
+
+}
+
+
+#main-container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#textarea-codificar{
+	width: 680px;
+	margin-left:160px;
+	margin-top: 168px;;
+	border: none;
+	background: #F3F5FC;
+	font-family: Montserrat;
+	font-size: 32px;
+	color:#0A3871 ;
+	resize: none;
+
+}
+
+#textarea-codificar:focus{
+	border: 2px solid #0A3871;
+	outline: none;
+}
+
+textarea::placeholder {
+	color:#0A3871;
+}
+
+.info > span{
+	font-size: 16px;
+	margin-right: 8px;
+}
+
+.info{
+	
+	display: flex;
+	align-items: center;
+}
+
+.botãos-container{
+	font-size: 12px;
+	margin-left:160px;
+	margin-top: 195px;
+
+
+}
+
+.botãos > button {
+	width: 328px;
+	height: 67px;
+	border-radius: 24px;
+	border-color: #0A3871;
+	margin-right: 24px;
+	margin-top: 16px;
+	font-size:16px;
+}
+
+.botão-criptografar{
+	background: #0A3871;
+	color: white;
+}
+
+.botão-descriptografar{
+	background: #D8DFE8;
+	color: #0A3871;
+}
+
+#descriptografar-display-container{
+	width: 400px;
+	height: 944px;
+	margin: 40px
+
+
+}
+
+.descriptografar{
+	width: 400px;
+	height: 850px;
+	background: white;
+	border-radius: 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+
+#descriptografado{
+	width: 400px;
+	height: 850px;
+	background: white;
+	border-radius: 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: absolute;
+	
+}
+
+#descriptografado > textarea{
+	border: none;
+	font-family: Montserrat;
+	font-size: 32px;
+
+}
+
+.descriptografar-container{
+	margin: 24px;
+
+}
+
+h1 {
+	font-weight: bold;
+	margin: 16px;
+	font-size: 24px;
+}
+
+p {
+	font-size: 16px;
+
+}
+
+#texto-descriptografado{
+	width: 336px ;
+	height: 700px;
+
+}
+
+.botão-copiar{
+
+	background: white;
+	color: #0A3871;
+	width: 328px;
+	height: 67px;
+	border-radius: 24px;
+	border-color: #0A3871;
+	font-size:16px;
+	margin-top: 16px;
+	
+}
+
+@media screen and (max-width:768px){
+
+	#textarea-codificar{
+
+		margin-left: 40px;
+
+	}
+
+	.botãos-container{
+		margin-left: 40px;
+	}
+
+	.descriptografar-container li img {
+		display: none;
+	}
+
+	.descriptografar{
+
+		width: 688px;
+		height:  133px;
+	}
+
+	#descriptografado{
+		width: 688px;
+		height: 347px;
+
+	}
+
+	.botão-copiar{
+
+		margin-bottom: 32px;
+		width: 610px;
+		height: 67px;
+	}
+
+	#texto-descriptografado{
+		width: 610px;
+		height: 180px;
+		margin-top: 24px;
+	}
+
+}
+
+@media screen and (max-width:375px){
+
+	.descriptografar{
+
+		width: 347px;
+		height:  186px;
+	}
+
+	h1 {
+		margin: 16px 0px;
+	}
+
+	#textarea-codificar{
+		width: 347px;
+	}
+
+	#descriptografado{
+		width: 343px;
+		height: 595px;
+
+	}
+
+	#descriptografar-display-container{
+		width: 347px;
+
+
+	}
+
+	#texto-descriptografado{
+		border-radius: 24px;
+		width: 343px;
+		height: 432px;
+	}
+
+	.botão-copiar{
+
+		margin-bottom: 32px;
+		width: 300px;
+		height: 67px;
+	}
+
+	.botãos > button {
+	width: 347px;
+	
+}
+
+}
+

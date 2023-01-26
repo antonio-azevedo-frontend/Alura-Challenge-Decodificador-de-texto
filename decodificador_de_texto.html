@@ -1,0 +1,113 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<meta http-equiv="X-UA-Compatible" content="ie-edge">
+		<title>Decodificador de texto
+		</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+      
+	</head>
+
+	<body>
+
+
+		<section id="main-container">
+
+
+
+			<div id="logo-container">
+
+				<img src="logo.svg" class="logo">
+
+			</div>
+
+
+
+			<div id="textarea-container">
+
+				<textarea id="textarea-codificar" rows="10" placeholder="Digite seu texto" ></textarea>
+
+				<div class="botãos-container">
+
+				<div class="info">
+					<span class="material-icons">info</span>
+					<p> Apenas letras minúsculas e sem acento.</p>
+				</div>
+
+
+
+				<div class="botãos">
+					<button class="botão-criptografar" onclick="criptografar()"> Criptografar </button>
+					<button class="botão-descriptografar" onclick="descriptografar()">Descriptografar</button>
+				</div>
+
+				</div>
+
+			</div>
+
+
+
+
+			<div id="descriptografar-display-container">
+
+
+				<div id="descriptografado" style="display:none;">
+				<textarea readonly id="texto-descriptografado"></textarea>
+				<button class="botão-copiar" >Copiar</button>
+				</div>
+
+
+
+				<div class="descriptografar">
+				<ul class="descriptografar-container">
+					<li>
+						<img src="High quality products 1 1.png"> 
+					</li>
+						<h1>Nenhuma mensagem encontrada</h1>
+					<li>
+					</li>
+						<p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+					<li>
+					</li>
+				</ul>
+
+			</div>
+
+
+
+				
+
+			</div>
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+		</section>
+
+		<script src="script.js" ></script>
+  
+
+	</body>
+
+
+	</html>
